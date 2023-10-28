@@ -19,8 +19,6 @@ function sleep(ms) {
 
     await page.click("input[placeholder='Select an app store']");
 
-    
-
     const startTime = await page.evaluate(() => performance.now()); 
 
     await page.type("input[id='arbAppSearch']", 'Whatsapp'); 
