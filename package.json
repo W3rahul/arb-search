@@ -1,0 +1,17 @@
+{
+  "name": "arb-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "TC01":  "node src/tests/TC01-SearchNARB.js",
+    "TC02":  "node src/tests/TC02-FilterSearchNARB.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.4.1"
+  }
+}
