@@ -5,8 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "TC01":  "node src/tests/TC01-SearchNARB.js",
-    "TC02":  "node src/tests/TC02-FilterSearchNARB.js",
+    "TC01-01":  "node src/tests/TC01-01SearchNARB.js",
+    "TC01-02":  "node src/tests/TC01-02FilterSearchNARB.js",
+    "TC02-01":  "node src/tests/TC02-01SearchARB.js",
+    "TC02-02":  "node src/tests/TC02-02FilterSearchARB.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
